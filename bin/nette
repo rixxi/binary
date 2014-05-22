@@ -1,0 +1,9 @@
+#!/usr/bin/php
+<?php
+
+// There is no commented out maintenance fallback because some commands should actually do the maintenance
+
+$container = require __DIR__ . '/../../../../app/bootstrap.php';
+
+// Run application.
+$container->getService('application')->run();
