@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 
 // There is no commented out maintenance fallback because some commands should actually do the maintenance
